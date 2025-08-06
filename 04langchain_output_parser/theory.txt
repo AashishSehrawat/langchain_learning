@@ -1,0 +1,9 @@
+1. Output parsers: Convert the LLM response into structured outputs.
+2. Output parsers can work with both open source and close source llms.
+3. Famous Output parser: 
+    -> String Output parser: give the output in string formaat like result.content
+    -> Json Output parser: give the output in json but we cann;t define the schema as llm generate the based on its output
+    -> Structured Output parsers: give output in structured json response based on predefined schema
+        -> disadv: can't validate the data
+    -> Pydantic output parser: gives an schema with validatation
+

@@ -1,0 +1,12 @@
+1. In this repo, we work to get structured ouput like json format by out llms.
+2. There are two types of llms:
+    -> those which doesn't have power to give structured output
+    -> those which have powert to give structured output
+3. langchain provide the methods to work with both types of llm models
+4. In llm which have the power to generate the structured output we use with_structured_output() methods
+    -> 3 ways to generate structured output
+        1. typedDict
+        2. pydantic
+        3. json_schema
+
+
