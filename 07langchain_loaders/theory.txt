@@ -1,0 +1,1 @@
+Document loader: load data from various source into a standard format(Document Object) which is used for chukking, emmeding, retervials and generations 
