@@ -46,7 +46,7 @@ data = vector_store.get(include=["embeddings", "documents", "metadatas"])
 print("Data: ", data)
 
 query = vector_store.similarity_search(
-    query="who is virat kholi",
+    query="who is virat kholi",  
     k=1
 )
 print("Query: ", query)
